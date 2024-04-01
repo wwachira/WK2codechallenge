@@ -5,15 +5,15 @@ function isLetters(string){
     (char => {
         //check my character is Uppercase/lowercase
         if (char ===char.toUpperCase()) {
-            return string.toLowerCase();
+            return char.toLowerCase();
         }else
         {
-            return string.toUpperCase();
+            return char.toUpperCase();
         }
      
     });
-    //output
+    //my output using char.toUpperCase/LowerCase swaps the letters. a different result occurs if i use string.toUpperCase/LowerCase instead, the string swaps each other.
     console.log(isLetters);
 }
-//example with Liz having Easter
+//example 
 const swappedString = isLetters("Liz is Having EASTER");
