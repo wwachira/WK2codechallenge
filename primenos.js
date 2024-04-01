@@ -9,7 +9,7 @@ function createNumbersBetween(start, finish) {
     return result;
     }
 }
-//example the calls my function with start as 7, finishes at 17.
+//example that calls my function with start as 7, finishes at 17.
 const start = 7;
 const finish= 17;
 const getResult = createNumbersBetween(start, finish);
